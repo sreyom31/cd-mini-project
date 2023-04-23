@@ -197,23 +197,12 @@ let tryDeriveTree = (g, inputStr) => {
 
 // UI Code
 
-// var rules = [
-// 	{lhs: 'S', rhs: 'AB' },
-// 	{lhs: 'A', rhs: 'aA' },
-// 	{lhs: 'A', rhs: '' },
-// 	{lhs: 'B', rhs: 'bB' },
-// 	{lhs: 'B', rhs: '' }
-// ];
-
 var rules = [
-	{lhs: 'S', rhs: 'TB' },
-	{lhs: 'B', rhs: '+TB' },
-	{lhs: 'B', rhs: '' },
-	{lhs: 'T', rhs: 'FC' },
-	{lhs: 'C', rhs: '*FC' },
-	{lhs: 'C', rhs: '' },
-	{lhs: 'F', rhs: '(S)' },
-	{lhs: 'F', rhs: 'i' }
+	{lhs: 'S', rhs: 'AB' },
+	{lhs: 'A', rhs: 'aA' },
+	{lhs: 'A', rhs: '' },
+	{lhs: 'B', rhs: 'bB' },
+	{lhs: 'B', rhs: '' }
 ];
 
 var cases = [
